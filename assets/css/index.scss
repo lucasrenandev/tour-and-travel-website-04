@@ -1,0 +1,17 @@
+@import "./globalStyles";
+@import "./variables";
+@import "./header";
+@import "./home";
+
+* {
+    @include configReset();
+}
+
+body {
+    background-color: $bg-color;
+    color: $text-color;
+}
+
+section {
+    @include sectionConfig()
+}

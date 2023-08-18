@@ -1,0 +1,48 @@
+/* ===== Header ===== */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 7%;
+    transition: all 0.3s ease;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    color: #000;
+    font-size: $p-font;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    &.active, 
+    &:hover {
+        color: $main-color;
+    }
+}
+
+#menu-icon {
+    font-size: 36px;
+    z-index: 1001;
+    cursor: pointer;
+    display: none;
+}
