@@ -11,6 +11,11 @@
     justify-content: space-between;
     padding: 22px 7%;
     transition: all 0.3s ease;
+    &.sticky {
+        background-color: $bg-color;
+        padding: 15px 7%;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.02);
+    }
 }
 
 .logo img {
