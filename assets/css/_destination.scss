@@ -1,0 +1,20 @@
+.destination-container {
+    background-color: #fff8f6;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    padding: 20px;
+    gap: 2rem;
+}
+
+.dest-box img {
+    width: 80px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+}

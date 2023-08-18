@@ -3,6 +3,8 @@
 @import "./header";
 @import "./home";
 @import "./place";
+@import "./about";
+@import "./destination";
 
 * {
     @include configReset();
