@@ -5,6 +5,8 @@
 @import "./place";
 @import "./about";
 @import "./destination";
+@import "./trip";
+@import "./customers";
 
 * {
     @include configReset();

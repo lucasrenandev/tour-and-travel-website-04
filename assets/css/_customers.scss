@@ -1,0 +1,58 @@
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    font-size: $h1-font;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.3;
+    text-transform: capitalize;
+}
+
+.customers-container {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    align-items: center;
+    gap: 2rem;
+}
+
+.customers-box {
+    background-color: #fff8f6;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.desc {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.desc-image img {
+    width: 52px;
+    height: auto;
+}
+
+.name h5 {
+    font-size: 15px;
+    font-weight: 500;
+    color: $third-color;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+}
+
+.name h6 {
+    font-size: 13px;
+    font-weight: 400;
+    color: $third-color;
+}
+
+.description p {
+    font-size: 13px;
+    font-weight: 400;
+    color: $third-color;
+    line-height: 1.6;
+}

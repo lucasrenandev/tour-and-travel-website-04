@@ -1,0 +1,35 @@
+.trip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.trip-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+}
+
+.trip-text h2 {
+    font-size: $h2-font;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.4;
+    text-transform: capitalize; 
+}
+
+.trip-text p {
+    color: $second-color;
+    font-size: $p-font;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.8;
+}
+
+.trip-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
