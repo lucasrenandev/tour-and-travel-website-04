@@ -175,6 +175,7 @@
   border-radius: 20px 0 0 20px;
 }
 
+/* ===== About section ===== */
 .about {
   display: flex;
   flex-direction: column;
@@ -245,6 +246,7 @@
   margin-left: 3rem;
 }
 
+/* ===== Destination section ===== */
 .destination-container {
   background-color: #fff8f6;
   display: grid;
@@ -266,6 +268,7 @@
   transform: scale(1.1);
 }
 
+/* ===== Trip section ===== */
 .trip {
   display: flex;
   flex-direction: column;
@@ -302,6 +305,7 @@
   height: auto;
 }
 
+/* ===== Customers section ===== */
 .title {
   text-align: center;
 }
@@ -361,6 +365,7 @@
   line-height: 1.6;
 }
 
+/* ===== Newsletter section ===== */
 .news-container {
   background-color: #d0dad0;
   display: flex;
