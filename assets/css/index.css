@@ -16,7 +16,7 @@
 #header.sticky {
   background-color: #fff;
   padding: 15px 7%;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.02);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .logo img {
@@ -359,6 +359,61 @@
   font-weight: 400;
   color: #515c6b;
   line-height: 1.6;
+}
+
+.news-container {
+  background-color: #d0dad0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  gap: 1rem;
+}
+
+.news-container h2 {
+  font-size: 3.45rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.4;
+}
+
+.news-container form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+form input:nth-child(1),
+form input:nth-child(2) {
+  width: 280px;
+  height: auto;
+  padding: 14px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+form input:nth-child(3) {
+  background-color: #f9531d;
+  border: none;
+  outline: none;
+  padding: 13px 40px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: box-shadow 0.4s ease;
+}
+form input:nth-child(3):hover {
+  box-shadow: 0 0 20px #f9531d;
 }
 
 * {
