@@ -1,0 +1,25 @@
+footer {
+    background-color: #505850;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 7%;
+}
+
+footer p {
+    color: #ffffff80;
+    font-size: $p-font;
+    font-weight: 400;
+}
+
+footer a {
+    background-color: $main-color;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
