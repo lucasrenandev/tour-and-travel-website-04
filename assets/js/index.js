@@ -1,6 +1,6 @@
 const header = document.getElementById("header")
-const menuIcon = document.getElementById("menu-icon")
 const navBar = document.querySelector(".navbar")
+const menuIcon = document.getElementById("menu-icon")
 
 window.addEventListener("scroll", function() {
     header.classList.toggle("sticky", this.window.scrollY > 0) 
