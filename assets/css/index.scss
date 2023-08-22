@@ -15,13 +15,13 @@
     @include configReset();
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: $bg-color;
     color: $text-color;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 section {
